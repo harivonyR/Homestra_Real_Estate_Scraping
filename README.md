@@ -76,10 +76,9 @@ Homestra_Real_Estate_Scraping/
 │
 ├── main.py                     # Main script to run scraping
 ├── credentials.example.py      # Example for API key configuration
-├── utils/
-│   ├── query_builder.py        # Build query strings for Homestra API
-│   ├── scraper.py              # Homestra Search API request
-│   └── piloterr.py             # Website crawler for detail enrichment
+├── script/
+│   ├── homestra.py             # Tailored function for Homestra scraping : build query, scrape detail/summary
+│   └── piloterr.py             # Homestra Search API request 
 │
 ├── output/                     # Default folder for JSON output
 └── README.md                   # Project documentation
