@@ -11,22 +11,22 @@ It combines the **Piloterr Homestra Search API** and **Piloterr Website Crawler*
 
 Clone  the repository   
 ```bash
-git clone https://github.com/harivonyR/Homestra_Real_Estate_Scraping
+$ git clone https://github.com/harivonyR/Homestra_Real_Estate_Scraping
 ```
 
 Browse into the project
 ```bash
-cd Homestra_Real_Estate_Scraping
+$ cd Homestra_Real_Estate_Scraping
 ```
 
 Install dependecies
 ```bash
-pip install requests pandas tqdm beautifulsoup4
+$ pip install requests pandas tqdm beautifulsoup4
 ```
 
 Copy the example credentials file:  
 ```bash
-cp credential.example.py credential.py
+$ cp credential.example.py credential.py
 ```
 
 Open `credential.py` and paste your API key inside:  
@@ -45,7 +45,7 @@ MAX_PAGE = 2
 
 Run the main script to start scraping Homestra listings:  
 ```bash
-python main.py
+$ python main.py
 ```
 
 This will:  
